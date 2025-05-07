@@ -25,12 +25,12 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-left_col, right_col = st.columns([1.2, 1.5], gap="large")
+left_col, right_col = st.columns([0.8, 1.5], gap="large")
 
-with left_col:
-    st.markdown('<div class="image-container">', unsafe_allow_html=True)
-    st.image("quality.jfif", use_container_width=True) 
-    st.markdown('</div>', unsafe_allow_html=True)
+# with left_col:
+#     st.markdown('<div class="image-container">', unsafe_allow_html=True)
+#     st.image("quality.jfif", use_container_width=True) 
+#     st.markdown('</div>', unsafe_allow_html=True)
 
 with right_col:
     st.markdown('<div class="form-container">', unsafe_allow_html=True)
