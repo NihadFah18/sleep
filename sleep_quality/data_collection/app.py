@@ -42,7 +42,7 @@ with right_col:
         genre = st.selectbox("Genre", ["Homme", "Femme"])
         duree_sommeil = st.text_input("Durée de sommeil (en heures)")
         stress = st.selectbox("Niveau de stress (1 à 10)", list(range(1, 11)))
-        trouble = st.selectbox("Trouble du sommeil", ["Aucun", "Insomnie", "Apnée du sommeil"])
+        trouble = st.selectbox("Trouble du sommeil", ["Aucun", "Insomnie", "Apnee du sommeil"])
         bmi_category = st.selectbox("Catégorie d'IMC", ["Underweight", "Normal", "Overweight", "Obese"])
 
         submitted = st.form_submit_button("Soumettre")
